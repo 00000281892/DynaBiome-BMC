@@ -21,7 +21,7 @@ The code is implemented in Python 3.8+ using TensorFlow/Keras. Install dependenc
 ```bash
 pip install tensorflow pandas numpy scikit-learn matplotlib seaborn shap
 
-📄 Citation
+## Citation
 If you use this code or model in your research, please cite our paper:
 @article{Qureshi2026DynaBiome,
   title={DynaBiome: Interpretable Unsupervised Learning of Gut Microbiome Dysbiosis via Temporal Deep Models},
