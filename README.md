@@ -20,3 +20,35 @@ The code is implemented in Python 3.8+ using TensorFlow/Keras. Install dependenc
 
 ```bash
 pip install tensorflow pandas numpy scikit-learn matplotlib seaborn shap
+
+```
+
+## Usage
+### Clone the repository:
+
+```Bash
+git clone [https://github.com/](https://github.com/)[YourUsername]/DynaBiome-BMC.git
+```
+### Dataset: The dataset in data/ is zipped. The scripts are configured to read the .zip file directly.
+
+## Using the Pre-Trained Model:
+
+You can skip training (Notebook 01) and go directly to Notebook 02 or 03.
+These notebooks are configured to automatically load the pre-trained model from models/DynaBiome_PatientSplit_Model.keras.
+
+## Retraining (Optional):
+
+If you wish to retrain the model from scratch, run 01_DynaBiome_Model_Training.ipynb. This will overwrite the file in the models/ directory.
+
+## Citation
+If you use this code or model in your research, please cite our paper:
+
+@article{Qureshi2026DynaBiome,
+  title={DynaBiome: Interpretable Unsupervised Learning of Gut Microbiome Dysbiosis via Temporal Deep Models},
+  author={Qureshi, Awais and Wahid, Abdul and Qazi, Shams and Shahzad, Muhammad K. and Moheed, Hashir},
+  journal={BMC Bioinformatics},
+  year={2026},
+  publisher={BioMed Central}
+}
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
